@@ -1,0 +1,43 @@
+menu {
+    margin: 0;
+    background-color: #333;
+}
+
+menu .logo {
+    max-height: 80px;
+}
+
+menu .nav-item .nav-link.active {
+    color: #61dafb;
+}
+
+menu .nav-item .nav-link {
+    color: #d4d5d7;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 575px) {
+    section.page {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+button#goTop {
+    border: none;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+    padding: 10px;
+    background: #61dafb;
+    opacity: 0;
+    font-size: 13px;
+    transition: opacity 0.5s ease-in-out;
+}
+button#goTop.display {
+    opacity: 0.7;
+}

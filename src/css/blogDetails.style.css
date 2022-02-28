@@ -1,0 +1,21 @@
+.blog-details {
+    margin-top: 50px;
+}
+.blog-details .blog-detail-wrapper {
+    padding: 20px 30px;
+    border: 1px solid #c2a9ff;
+    border-radius: 10px;
+}
+.blog-details .blog-detail-wrapper .blog-detail-box:not(:last-child) {
+    margin-bottom: 20px;
+}
+.blog-details .blog-detail-wrapper .blog-detail-box h5,
+.blog-details .blog-detail-wrapper .blog-detail-box p.posted-by span {
+    color: rgb(54, 46, 165);
+}
+.blog-details .blog-detail-wrapper .blog-detail-box h6 {
+    text-transform: capitalize;
+}
+.blog-details .blog-detail-wrapper .blog-detail-box p.posted-by {
+    font-size: 13px;
+}

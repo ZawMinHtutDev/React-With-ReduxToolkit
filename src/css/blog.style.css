@@ -1,0 +1,21 @@
+.blog-page .blog-item-wrapper {
+    padding: 30px 20px;
+    background-color: #d4d5d7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease-in-out;
+}
+.blog-page .blog-item-wrapper:hover {
+    background-color: #c2a9ff;
+}
+
+.blog-page .blog-item-wrapper h5 {
+    text-transform: capitalize;
+    color: rgb(54, 46, 165);
+}
+
+.blog-page .blog-item-wrapper p {
+    margin-bottom: 0;
+    color: initial;
+}
